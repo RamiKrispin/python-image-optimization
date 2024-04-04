@@ -1,0 +1,16 @@
+{
+    "name": "Python Container Size Optimization",
+    "image": "rkrispin/python-multi-alpine:3.10",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/python-poc/bin/python3",
+                "python.selectInterpreter": "/opt/python-poc/bin/python3"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}

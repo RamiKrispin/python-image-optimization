@@ -1,0 +1,6 @@
+wheel
+pandas
+numpy
+matplotlib
+requests
+plotly
