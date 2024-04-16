@@ -1,8 +1,10 @@
 FROM python:3.10
 
-
 ARG VENV_NAME="my_project"
 ENV VENV_NAME=$VENV_NAME
+
 RUN mkdir requirements
+
 COPY install_requirements.sh requirements.txt requirements/
+
 RUN bash ./requirements/install_requirements.sh $VENV_NAME
