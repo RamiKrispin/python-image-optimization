@@ -1,6 +1,8 @@
 {
     "name": "Python Container Size Optimization",
-    "image": "rkrispin/python-multi-alpine:3.10",
+    // "image": "rkrispin/python-base:3.10",
+    // "image": "rkrispin/python-python-slim:3.10",
+    "image": "rkrispin/python-multi-stage:3.10",
     "customizations": {
         "vscode": {
             "settings": {
